@@ -5,7 +5,8 @@ def cadastrar(nomes):
     nomes.append(nome)
 
 def listar(nomes):
-    print nomes
+    for nome in nomes:
+        print nome
 
 def menu():
     nomes = []
